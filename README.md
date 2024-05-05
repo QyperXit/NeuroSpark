@@ -8,7 +8,7 @@ NeuroSpark is a concept website created for learning and demonstration purposes,
 
 NeuroSpark provides a glimpse into the future of music production by demonstrating the capabilities of an AI-powered music generator. The project incorporates various technologies, such as HTML, CSS, JavaScript, and scroll parallax effects, to create an engaging user experience.
 
-## ℹ️ About NeuroSpark
+## About NeuroSpark
 
 NeuroSpark is an innovative AI-powered music generator designed to assist music producers in crafting melodies, drums, and beats effortlessly. Leveraging advanced algorithms, NeuroSpark can generate unique musical compositions tailored to the user's preferences and style.
 
