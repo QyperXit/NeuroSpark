@@ -4,7 +4,9 @@
 
 # 🎵 NeuroSpark Concept Website 🚀
 
-NeuroSpark is a concept website showcasing an AI-driven music generator application. This project serves as a demonstration of the application's features and capabilities, aiming to provide users with a glimpse into the future of music production.
+NeuroSpark is a concept website created for learning and demonstration purposes, showcasing an AI-driven music generator application. This project serves as a platform for expanding skills and adding to one's repertoire in web development.
+
+NeuroSpark provides a glimpse into the future of music production by demonstrating the capabilities of an AI-powered music generator. The project incorporates various technologies, such as HTML, CSS, JavaScript, and scroll parallax effects, to create an engaging user experience.
 
 ## ℹ️ About NeuroSpark
 
