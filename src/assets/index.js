@@ -20,6 +20,7 @@ import recording01 from "./recording-01.svg";
 import recording03 from "./recording-03.svg";
 import searchMd from "./search-md.svg";
 import sliders04 from "./sliders-04.svg";
+import neurosymbol from "./spark-symbol.png";
 import yourlogo from "./yourlogo.svg";
 
 import curve from "./hero/curve.png";
@@ -29,13 +30,15 @@ import robot from "./hero/robot.jpg";
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
+import ethereum from "./collaboration/ethereum.png";
+
+import itunes from "./collaboration/itunes.png";
+import nft from "./collaboration/nft.png";
 import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import solana from "./collaboration/solana.png";
+import spotify from "./collaboration/spotify.png";
+import youtube from "./collaboration/youtube.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -103,30 +106,29 @@ export {
   discord,
   discordBlack,
   done,
+  ethereum,
   facebook,
-  figma,
   file02,
-  framer,
   gradient,
   grid,
   hero,
   heroBackground,
   homeSmile,
   instagram,
+  itunes,
   lines,
   loading,
   loading1,
   neurospark,
+  neurosymbol,
+  nft,
   notification1,
   notification2,
   notification3,
   notification4,
-  notion,
   photoshop,
   play,
   plusSquare,
-  protopie,
-  raindrop,
   recording01,
   recording03,
   roadmap1,
@@ -141,9 +143,12 @@ export {
   slack,
   sliders04,
   smallSphere,
+  solana,
+  spotify,
   stars,
   telegram,
   twitter,
   undone,
   yourlogo,
+  youtube,
 };
