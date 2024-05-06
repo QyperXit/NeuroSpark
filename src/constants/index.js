@@ -128,7 +128,7 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "NeuroSpark integrates AI into music production, enabling a collaborative AI-human workflow.";
 
 export const collabContent = [
   {
@@ -138,7 +138,7 @@ export const collabContent = [
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Effortless Drum Beats",
   },
   {
     id: "2",

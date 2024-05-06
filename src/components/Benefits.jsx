@@ -18,9 +18,9 @@ const Benefits = () => {
           {benefits.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] bg"
-              style={{
-                backgroundImage: `url(${item.backgroundUrl})`,
-              }}
+              //   style={{
+              //     backgroundImage: `url(${item.backgroundUrl})`,
+              //   }}
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
@@ -29,8 +29,8 @@ const Benefits = () => {
                 <div className="flex items-center mt-auto">
                   <img
                     src={item.iconUrl}
-                    width={48}
-                    height={48}
+                    width={35}
+                    height={35}
                     alt={item.title}
                   />
                   <p className="ml-auto text-xs font-bold tracking-wider uppercase font-code text-n-1">
