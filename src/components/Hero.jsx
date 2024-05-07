@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { ScrollParallax } from "react-just-parallax";
+import { MouseParallax, ScrollParallax } from "react-just-parallax";
 import { curve, heroBackground, robot } from "../assets";
 import { heroIcons } from "../constants";
 import Button from "./Button";

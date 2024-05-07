@@ -1,3 +1,4 @@
+import { useMediaQuery } from "@react-hook/media-query";
 import { useState } from "react";
 import Arrow from "../assets/svg/Arrow";
 import ClipPath from "../assets/svg/ClipPath";
@@ -8,6 +9,7 @@ import Section from "./Section";
 
 const Benefits = () => {
   const [hoveredItemId, setHoveredItemId] = useState(null);
+  const isSmallScreen = useMediaQuery("(max-width: 640px)");
 
   return (
     <Section id="features">
@@ -23,13 +25,13 @@ const Benefits = () => {
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
                 backgroundImage:
-                  hoveredItemId === item.id
-                    ? `url(${item.backgroundUrl})`
-                    : "none",
+                  !isSmallScreen && hoveredItemId !== item.id
+                    ? "none"
+                    : `url(${item.backgroundUrl})`,
               }}
               key={item.id}
-              onMouseEnter={() => setHoveredItemId(item.id)}
-              onMouseLeave={() => setHoveredItemId(null)}
+              onMouseEnter={() => !isSmallScreen && setHoveredItemId(item.id)}
+              onMouseLeave={() => !isSmallScreen && setHoveredItemId(null)}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="mb-5 h5">{item.title}</h5>
