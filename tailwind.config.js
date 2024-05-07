@@ -10,6 +10,15 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite", // Adjust duration and timing function
+      },
+      keyframes: {
+        pulse: {
+          "0%, 100%": { opacity: "1" }, // Adjust keyframe styles
+          "50%": { opacity: "0.75" },
+        },
+      },
       colors: {
         color: {
           1: "#AC6AFF",
