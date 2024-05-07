@@ -7,7 +7,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 
 const Benefits = () => {
-  const [hoveredItemId, setHoveredItemId] = useState(null);
+  // const [hoveredItemId, setHoveredItemId] = useState(null);
 
   return (
     <Section id="features">
@@ -23,8 +23,8 @@ const Benefits = () => {
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{ backgroundImage: `url(${item.backgroundUrl})` }}
               key={item.id}
-              onMouseEnter={() => setHoveredItemId(item.id)}
-              onMouseLeave={() => setHoveredItemId(null)}
+              // onMouseEnter={() => setHoveredItemId(item.id)}
+              // onMouseLeave={() => setHoveredItemId(null)}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="mb-5 h5">{item.title}</h5>
